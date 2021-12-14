@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background: #1b2127;
+	height: 100vh;
+	width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Card {
+	background: #060ce9;
+	margin: 5px;
+	padding: 0px;
+	height: 125px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Answer-Card {
+	background: #060ce9;
+	height: 97vh;
+	width: 97vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	flex-wrap: wrap;
+	font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Image {
+	width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.Board {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Score-Board {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.Scorer {
+	margin-left: 15%;
+	margin-right: 15%;
+	color: #ffffff;
+}
+
+.Score {
+	padding-right: 20px;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.Question {
+	color: #ffffff;
+}
+
+.Value {
+	color: #ffd700;
 }
